@@ -5,4 +5,4 @@ services:
     network_mode: host
     env_file: .env
     volumes:
-      - ./:/certs/
+      - /var/lib/nobetnode:/var/lib/nobetnode
