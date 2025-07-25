@@ -1,0 +1,8 @@
+services:
+  nobetnode:
+    image: ghcr.io/muttehitler/nobetnode:main
+    privileged: true
+    network_mode: host
+    env_file: .env
+    volumes:
+      - ./:/certs/
